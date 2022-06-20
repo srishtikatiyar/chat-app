@@ -1,0 +1,147 @@
+*{
+ box-sizing: border-box;
+ margin: 0%;
+ padding: 0%;
+    
+}
+.header{
+    width: 100%;
+    height: 12%;
+    margin: auto;
+}
+body{
+    margin: 0.6%;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.body{
+    position: relative;
+    left:11%;
+    box-sizing: border-box;
+    
+    width: 60%;
+    height: 94%;
+}
+.content{
+    background-color: lightblue;
+    padding: 2px;
+  
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 90%;
+    width: 100%;
+}
+.logo{
+    display: block;
+    margin: auto;
+    background-color: seagreen;
+}
+img{
+    width: 70px;
+    height: 65px;
+}
+.message{
+    background-color:rgb(46, 194, 189);
+    padding: 10px;
+     margin: 17px 2px;
+    word-wrap: break-word;
+    word-break: normal;
+     width: fit-content;
+     border-radius: 10px;
+     max-width: 60%;
+     font-size: 1.2rem;
+    
+}
+.left{
+float: left;
+clear: both;
+background-color: pink;
+
+}
+.right{
+ float: right;  
+clear: both;
+background-color: rebeccapurple;
+color: honeydew;
+}
+.send{
+
+position: absolute;
+bottom: 10%;
+    margin: 0%;
+    background-color: olivedrab;
+    display: block;
+    width: 100%;
+    height: 10%;
+   
+}
+#send-container{
+    display: block;
+    overflow-x: hidden;
+    text-align: center;
+}
+.centre{
+    float: right;  
+    clear: both;
+background-color: rgb(187, 184, 184);
+}
+#messageInp{
+    width:80%;
+    min-height: 30px;
+    max-height: 70px;
+    border: 5px solid orange;
+    font-size: 1.1rem;
+    padding: 4px;
+}
+.btn{
+    width:15%;
+    height: 20%;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor:pointer;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.emoji{
+    position: absolute;
+    left:73%;
+    width: 27%;
+    height: 88%;
+    background-color: cornflowerblue;
+    display: flex;
+   flex-direction: row;                  
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+.col > div{
+border: 2px solid saddlebrown;
+width: 100%;
+height: 13%;
+margin: 2%;
+font-size: 2.2rem;
+}
+.col > div:focus,.col > div:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.emojiImg{
+ width: 10%;
+ height: 10%;
+ border-radius: 8px;
+ margin: 1%;
+ font-size: 1.7rem;
+ padding: auto;
+}
+/* .attachments{
+    margin: auto;
+    height: 5%;
+    background-color: bisque;
+} */
